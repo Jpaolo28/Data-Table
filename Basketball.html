@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<body style="background-color:powderblue;">
+<meta charset = "UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scal=1.0">
+<title>data table</title>
+<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+<link rel = "stylesheet" href = "https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css">
+</head>
+<body>
+<div class ="container">
+<div class ="row">
+
+
+<table  class="table table-striped" style="width:100%">
+        <h1>Players</h1>
+		<thead>
+            <tr>
+                <th>Name</th>
+                <th>Points</th>
+                <th>Rebound</th>
+                <th>Assist</th>
+				<th>Steal</th>
+				<th>Foul</th>	
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+               <td>L.A Tenorio</td>
+                <td>16</td>
+                <td>3</td>
+                <td>8</td>
+				<td>2</td>
+				<td>3</td>
+            </tr>
+             <tr>
+               <td>Scothy Thompson</td>
+                <td>18</td>
+                <td>7</td>
+                <td>9</td>
+				<td>4</td>
+				<td>2</td>
+            </tr>
+             <tr>
+               <td>Jamie Malonzo</td>
+                <td>21</td>
+                <td>3</td>
+                <td>10</td>
+				<td>2</td>
+				<td>1</td>
+            </tr>
+              <tr>
+               <td>Japeth Aguilar</td>
+                <td>23</td>
+                <td>10</td>
+                <td>5</td>
+				<td>2</td>
+				<td>3</td>
+            </tr>
+            <tr>
+               <td>Justine brownlee</td>
+                <td>34</td>
+                <td>7</td>
+                <td>8</td>
+				<td>4</td>
+				<td>2</td>
+            </tr>
+              <tr>
+               <td>Stanly Pringle</td>
+                <td>14</td>
+                <td>4</td>
+                <td>5</td>
+				<td>3</td>
+				<td>2</td>
+            </tr>
+             <tr>
+               <td>Chris Ellis</td>
+                <td>9</td>
+                <td>3</td>
+                <td>2</td>
+				<td>1</td>
+				<td>0</td>
+            </tr>
+              <tr>
+               <td>Junmar Fajardo </td>
+                <td>24</td>
+                <td>4</td>
+                <td>10</td>
+				<td>2</td>
+				<td>1</td>
+			</tr>
+              <tr>
+               <td>Beu Belga</td>
+                <td>10</td>
+                <td>9</td>
+                <td>2</td>
+				<td>2</td>
+				<td>1</td>
+            </tr>
+            </tr>
+			 </tbody>
+			 </table>
+
+<script src ="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src ="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+<script src ="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js"></script>
+<script>
+$(document).ready( function () {
+    $('.table').DataTable();
+});
+</script>
+
+
+
+</div>
+</div>
+</body>
+</html>
